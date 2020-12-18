@@ -29,7 +29,7 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
-    title: '',
+    title: "Sugar Mama's",
     info: '',
     info2: '',
     url: 'https://thecandyshop.netlify.app/',
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'about.Face',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://about-face.netlify.app',
     repo: 'https://github.com/sirkittles/About.Face', // if no repo, the button will not show up
   },
   {
