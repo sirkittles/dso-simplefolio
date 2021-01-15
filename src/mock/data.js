@@ -29,11 +29,20 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project3.jpg',
+    title: "Haven",
+    info: '',
+    info2: '',
+    url: 'https://haven-p4.netlify.app/',
+    repo: 'https://github.com/sirkittles/Haven', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project3.jpg',
     title: "Sugar Mama's",
     info: '',
     info2: '',
     url: 'https://thecandyshop.netlify.app/',
-    repo: 'https://thecandyshop.netlify.app/', // if no repo, the button will not show up
+    repo: 'https://github.com/sirkittles/sei-p3-candy', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
