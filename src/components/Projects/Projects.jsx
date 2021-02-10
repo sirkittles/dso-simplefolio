@@ -28,8 +28,9 @@ const Projects = () => {
         <div className="project-wrapper">
           <Title title="Projects" />
           {projects.map((project) => {
-            const { title, info, info2, url, repo, img, id } = project;
-
+            const { title, info, info2, url, repo, img, id, skills } = project;
+            console.log(skills)
+            // const skill = skills.foreach()
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -68,6 +69,13 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
+                      {console.log(Array.isArray(skills))}
+                      {console.log(skills[0])}
+                      {/* {skills.forEach(skill => <p>{skill}</p>)
+                      } */}
+                      {skills.length > 0 ? 'yes'
+                        : 'no'
+                      }
                     </div>
                   </Fade>
                 </Col>

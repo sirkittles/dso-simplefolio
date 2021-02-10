@@ -33,7 +33,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: 'https://haven-p4.netlify.app/',
-    repo: 'https://github.com/sirkittles/Haven', // if no repo, the button will not show up
+    repo: 'https://github.com/sirkittles/Haven', // if no repo, the button will not show up,
+    skills: '',
   },
   {
     id: nanoid(),
@@ -43,6 +44,7 @@ export const projectsData = [
     info2: '',
     url: 'https://thecandyshop.netlify.app/',
     repo: 'https://github.com/sirkittles/sei-p3-candy', // if no repo, the button will not show up
+    skills: '',
   },
   {
     id: nanoid(),
@@ -52,6 +54,7 @@ export const projectsData = [
     info2: '',
     url: 'https://about-face.netlify.app',
     repo: 'https://github.com/sirkittles/About.Face', // if no repo, the button will not show up
+    skills: '',
   },
   {
     id: nanoid(),
@@ -61,6 +64,7 @@ export const projectsData = [
     info2: '',
     url: 'http://ghibli-movie-finder.surge.sh/',
     repo: 'https://github.com/sirkittles/Ghibli-Movie-Finder', // if no repo, the button will not show up
+    skills: ['JavaScript', 'jQuery', 'HTML', 'CSS', 'API'],
   },
 ];
 
