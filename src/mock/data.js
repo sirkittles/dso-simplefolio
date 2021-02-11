@@ -30,7 +30,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project4.png',
     title: "Haven",
-    info: '',
+    info: 'Haven is a social platform for interior lovers. It allows users to create an account, log in and post rooms they want to showcase. Sign in with user: admin password: 123456.',
     info2: '',
     url: 'https://haven-p4.netlify.app/',
     repo: 'https://github.com/sirkittles/Haven', // if no repo, the button will not show up,
@@ -40,7 +40,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project3.jpg',
     title: "Sugar Mama's",
-    info: 'Sugar Mama\'s is an e-commerce store was a collaboration with a UX/UI team. Our dev team was able to accurately deliver the design and a full CRUD admin site which allows admin to add, edit, and delete products.',
+    info: 'Sugar Mama\'s is an e-commerce store created in collaboration with a UX/UI team. Our dev team was able to accurately deliver the design and a full CRUD admin site which allows admin to add, edit, and delete products.',
     info2: '',
     url: 'https://thecandyshop.netlify.app/',
     repo: 'https://github.com/sirkittles/sei-p3-candy', // if no repo, the button will not show up
