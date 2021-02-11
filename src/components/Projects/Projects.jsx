@@ -29,8 +29,6 @@ const Projects = () => {
           <Title title="Projects" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id, skills } = project;
-            console.log(skills)
-            // const skill = skills.foreach()
             return (
               <Row key={id}>
                 <Col lg={4} sm={12}>
@@ -49,6 +47,9 @@ const Projects = () => {
                             'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi neque, ipsa animi maiores repellendu distinctioaperiam earum dolor voluptatum consequatur blanditiis inventore debitis fuga numquam voluptate architecto itaque molestiae.'}
                         </p>
                         <p className="mb-4">{info2 || ''}</p>
+                      </div>
+                      <div>
+                        <p>{skills || ''}</p>
                       </div>
                       <a
                         target="_blank"
@@ -69,13 +70,6 @@ const Projects = () => {
                           Source Code
                         </a>
                       )}
-                      {console.log(Array.isArray(skills))}
-                      {console.log(skills[0])}
-                      {/* {skills.forEach(skill => <p>{skill}</p>)
-                      } */}
-                      {skills.length > 0 ? 'yes'
-                        : 'no'
-                      }
                     </div>
                   </Fade>
                 </Col>

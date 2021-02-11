@@ -64,7 +64,7 @@ export const projectsData = [
     info2: '',
     url: 'http://ghibli-movie-finder.surge.sh/',
     repo: 'https://github.com/sirkittles/Ghibli-Movie-Finder', // if no repo, the button will not show up
-    skills: ['JavaScript', 'jQuery', 'HTML', 'CSS', 'API'],
+    skills: 'JavaScript, jQuery, HTML, CSS, API',
   },
 ];
 
