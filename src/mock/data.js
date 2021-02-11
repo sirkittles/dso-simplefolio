@@ -18,9 +18,9 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Hi, my name is Diane So and I am a software engineer located in the Greater NYC area.',
+  paragraphTwo: 'My love for finding creative solutions to client issues first led me into freelance consultancy and now to software development. While working closely with small to medium businesses for over 3 years I was expected to wear many hats including editing websites with no previous experience. This led to my first fledgling attempts at working with HTML and CSS. I loved the experience of learning and working with code and once COVID forced me to come home to the US, I enrolled in a full-time bootcamp program. I\'m no stranger to diving head first into learning new things and look forward to my continued development. ',
+  paragraphThree: 'When I\'m not tackling some code or creating something fun, I\'m outside skiing/kayaking, working on a freelance project, or translating webtoons.',
   resume: 'https://drive.google.com/file/d/1zglGAlhJhQ2RGUzEh5JAMTZ81CJffMcO/view?usp=sharing', // if no resume, the button will not show up
 };
 
