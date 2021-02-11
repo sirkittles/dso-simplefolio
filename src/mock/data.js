@@ -54,7 +54,7 @@ export const projectsData = [
     info2: '',
     url: 'https://about-face.netlify.app',
     repo: 'https://github.com/sirkittles/About.Face', // if no repo, the button will not show up
-    skills: '',
+    skills: 'React, Airtable, JavaScript, HTML, CSS',
   },
   {
     id: nanoid(),
