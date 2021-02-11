@@ -49,7 +49,7 @@ const Projects = () => {
                         <p className="mb-4">{info2 || ''}</p>
                       </div>
                       <div>
-                        <p>{skills || ''}</p>
+                        <p>{skills ? <span><b>Skills: </b> {skills}</span> : ''}</p>
                       </div>
                       <a
                         target="_blank"

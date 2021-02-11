@@ -60,7 +60,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project1.jpg',
     title: 'Ghibli Movie Finder',
-    info: 'Built utilizing JavaScript, jQuery, HTML, CSS, & an API, this front-end web application allows Ghibli lovers and newcomers alike to search for info on their favorite Ghibli titles.',
+    info: 'Front-end web application which allows Ghibli lovers and newcomers alike to search for info on their favorite Ghibli titles. Utilizes the Ghibli API and the IMDB API to compile movie data and images.',
     info2: '',
     url: 'http://ghibli-movie-finder.surge.sh/',
     repo: 'https://github.com/sirkittles/Ghibli-Movie-Finder', // if no repo, the button will not show up
