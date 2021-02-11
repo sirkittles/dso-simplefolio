@@ -28,13 +28,13 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project3.jpg',
+    img: 'project4.jpg',
     title: "Haven",
     info: '',
     info2: '',
     url: 'https://haven-p4.netlify.app/',
     repo: 'https://github.com/sirkittles/Haven', // if no repo, the button will not show up,
-    skills: '',
+    skills: 'React, Ruby, Rails, PostgreSQL',
   },
   {
     id: nanoid(),
