@@ -49,7 +49,8 @@ const About = () => {
                 </p>
                 <p className="about-wrapper__info-text">
                   <b>{'Skills'}</b>
-                  <p>{list || 'nothing'}</p>
+                  <br></br>
+                  {list || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
