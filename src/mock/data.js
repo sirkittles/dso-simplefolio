@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project4.jpg',
+    img: 'project4.png',
     title: "Haven",
     info: '',
     info2: '',
@@ -50,7 +50,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'about.Face',
-    info: 'This React app is built using JavaScript, HTML, CSS, and Airtable and allows you to add your face products and log your skincare routines to help you find the routine that works best for you.',
+    info: 'This React app allows you to add your face products and log your skincare routines to help you find the routine that works best for you.',
     info2: '',
     url: 'https://about-face.netlify.app',
     repo: 'https://github.com/sirkittles/About.Face', // if no repo, the button will not show up
