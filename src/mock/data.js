@@ -40,11 +40,11 @@ export const projectsData = [
     id: nanoid(),
     img: 'project3.jpg',
     title: "Sugar Mama's",
-    info: '',
+    info: 'Sugar Mama\'s is an e-commerce store was a collaboration with a UX/UI team. Our dev team was able to accurately deliver the design and a full CRUD admin site which allows admin to add, edit, and delete products.',
     info2: '',
     url: 'https://thecandyshop.netlify.app/',
     repo: 'https://github.com/sirkittles/sei-p3-candy', // if no repo, the button will not show up
-    skills: '',
+    skills: 'React, Express, Mongoose, MongoDB, Git',
   },
   {
     id: nanoid(),
@@ -54,7 +54,7 @@ export const projectsData = [
     info2: '',
     url: 'https://about-face.netlify.app',
     repo: 'https://github.com/sirkittles/About.Face', // if no repo, the button will not show up
-    skills: 'React, Airtable, JavaScript, HTML, CSS',
+    skills: 'React, Airtable, Axios, CSS',
   },
   {
     id: nanoid(),
