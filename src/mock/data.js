@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Diane',
-  subtitle: 'your next Tech PM',
+  subtitle: 'your next Software Engineer',
   cta: 'Get to Know Me',
 };
 
@@ -19,13 +19,14 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Hi, my name is Diane So and I am a software engineer located in the Greater NYC area.',
+    'Hi, my name is Diane So and I am a software engineer located in the Greater NYC area. I worked in connecting Korean beauty brands with the US and EU markets for several years before pivoting to work in tech.',
   paragraphTwo:
-    "My love for finding creative solutions to client issues first led me to consultancy and now to software development. While working closely with smaller businesses I was expected to wear many hats including editing websites. This led to my first fledgling attempts at working with HTML and CSS. I loved the experience of learning and working with code and once COVID forced me to come home to the US, I enrolled in a bootcamp program. I'm no stranger to diving head first into learning new things and look forward to my continued development.",
+    "My love for finding creative solutions to client issues first led me to consultancy followed by software development. In the past, I worked on many exciting projects for my clients with top retailers in the US including Nordstrom, Sephora, Costco, TJ Maxx and more. Once COVID forced me to come home to the US, I enrolled in a bootcamp program to learn more about coding. I spent the year following my bootcamp helping small businesses launch or improve their online presence. It was rewarding to help them thrive, especially during a time where many were struggling. I'm no stranger to diving head first into learning new things and look forward to my continued development.",
   paragraphThree:
     "When I'm not tackling some code or creating something fun, I'm outside skiing/kayaking, working on a freelance project, or translating webtoons.",
   list:
-    'Javascript, HTML5, CSS3, React, Redux, Ruby, Rails, Express, Mongoose, MongoDB, Git, Node, PostgreSQL, Heroku',
+    'Javascript, HTML5, CSS3, React, Redux, Ruby, Rails, Express, MongoDB, Git, Node, PostgreSQL, Sass',
+  list2: 'testing testing',
   resume: 'https://drive.google.com/file/d/1Uugk1AzilUBgtzf3AYYk_X_RzRlHcTt8/view?usp=sharing', // if no resume, the button will not show up
 };
 
