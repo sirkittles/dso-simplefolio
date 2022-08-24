@@ -26,7 +26,7 @@ export const aboutData = {
     "When I'm not tackling some code or creating something fun, I'm outside skiing/kayaking, working on a freelance project, or translating webtoons.",
   list:
     'Javascript, HTML5, CSS3, React, Redux, Ruby, Rails, Express, Mongoose, MongoDB, Git, Node, PostgreSQL, Heroku',
-  resume: 'https://drive.google.com/file/d/1zglGAlhJhQ2RGUzEh5JAMTZ81CJffMcO/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/1Uugk1AzilUBgtzf3AYYk_X_RzRlHcTt8/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -97,11 +97,11 @@ export const footerData = {
     //   name: 'codepen',
     //   url: '',
     // },
-    // {
-    //   id: nanoid(),
-    //   name: 'linkedin',
-    //   url: 'https://www.linkedin.com/in/diane-so/',
-    // },
+    {
+      id: nanoid(),
+      name: 'linkedin',
+      url: 'https://www.linkedin.com/in/diane-so/',
+    },
     {
       id: nanoid(),
       name: 'github',
