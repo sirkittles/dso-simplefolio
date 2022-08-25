@@ -27,7 +27,7 @@ export const aboutData = {
   list:
     'Javascript, HTML5, CSS3, React, Redux, Ruby, Rails, Express, MongoDB, Git, Node, PostgreSQL, Sass',
   list2: '',
-  resume: 'https://drive.google.com/file/d/1Uugk1AzilUBgtzf3AYYk_X_RzRlHcTt8/view?usp=sharing', // if no resume, the button will not show up
+  resume: 'https://drive.google.com/file/d/18LzcDexnIrBkrYdWYOnNPYrdCmrgBBey/view?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
